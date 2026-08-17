@@ -167,6 +167,9 @@ int main() {
                                    ImGuiDockNodeFlags_PassthruCentralNode);
       {
 
+          ImGui::CreateContext();
+
+          ImGui::Text("Hello");
 
       }
 
