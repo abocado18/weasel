@@ -1,0 +1,10 @@
+#pragma once
+
+#include "SDL3/SDL_gpu.h"
+
+constexpr SDL_GPUTextureFormat HDR_FORMAT =
+    SDL_GPU_TEXTUREFORMAT_R16G16B16A16_FLOAT;
+
+constexpr SDL_GPUTextureFormat DEPTH_FORMAT = SDL_GPU_TEXTUREFORMAT_D32_FLOAT;
+
+constexpr SDL_GPUTextureFormat NORMAL_FORMAT = SDL_GPU_TEXTUREFORMAT_R8G8_UNORM;
